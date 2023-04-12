@@ -1,0 +1,22 @@
+{
+    "name": "winstonmarriot/module-picopc",
+    "description": "For wholeseller",
+    "type": "magento2-module",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Anees Ahmad",
+            "email": "aneesahmadweb@Gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Winstonmarriot\\Picopc\\": ""
+        }
+    }
+}
